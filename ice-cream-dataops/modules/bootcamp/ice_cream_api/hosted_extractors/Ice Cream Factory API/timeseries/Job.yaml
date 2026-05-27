@@ -1,0 +1,11 @@
+externalId: ICAPI Time series Job
+sourceId: Ice Cream Factory API
+destinationId: ICAPI Time series Destination
+format:
+  type: custom
+  encoding: utf8
+  mappingId: ICAPI Time series Mapping
+config:
+  interval: 1h
+  path: /timeseries/oee
+  method: get
